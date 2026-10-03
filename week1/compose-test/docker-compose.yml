@@ -1,0 +1,10 @@
+services:
+  web:
+    image: nginx:1.27
+    ports:
+      - "8080:80"
+  client:
+    image: curlimages/curl:8.10.1
+    command: sleep infinity   # 계속 떠 있게 해서 실험에 씁니다
+    depends_on:
+      - web
