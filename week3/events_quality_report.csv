@@ -1,0 +1,2 @@
+dataset,rows,dup_event_id,null_event_id,null_user_id,null_event_type,null_value,null_ts,event_type_values,user_id_le_0,value_le_0,unknown_event_type,first_ts,last_ts
+events,1000000,0,0,0,0,0,0,3,0,0,0,2026-06-01 00:00:02,2026-07-30 23:59:59

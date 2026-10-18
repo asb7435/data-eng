@@ -7,3 +7,12 @@ venv/
 !.env.example
 .DS_Store
 Thumbs.db
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*~
+*:Zone.Identifier
+*.parquet
