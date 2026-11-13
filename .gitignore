@@ -24,3 +24,10 @@ __pycache__/
 **/.venv/
 **/__pycache__/
 **/*.pyc
+
+# Week 6 - dependencies and local data
+week6/plugins/
+week6/confluentinc-kafka-connect-s3/
+week6/s3-sink.zip
+week6/orders.db
+week6/.*.swp
