@@ -16,3 +16,11 @@ __pycache__/
 *~
 *:Zone.Identifier
 *.parquet
+
+# Week 7 - secrets and Python environment
+**/.env
+**/.env.*
+!**/.env.example
+**/.venv/
+**/__pycache__/
+**/*.pyc
