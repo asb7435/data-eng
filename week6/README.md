@@ -34,6 +34,9 @@ MySQL(binlog) → Debezium → Kafka(shop.shop.orders) → S3 Sink → MinIO(cdc
 * MySQL INSERT → MinIO 파일 생성까지 엔드투엔드 통과
 * flush.size 만큼 모여야 파일이 생기는 것을 확인
 
+* **CDC 이벤트 실측:** r = 2건, c = 19건, u = 8건, d = 1건 (총 30건)
+* **MinIO 적재 실측:** cdc-raw 버킷에 JSON 파일 총 6개 저장 확인
+
 ## 6\. 남은 개선점
 
 아직 없음...
